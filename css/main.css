@@ -1,0 +1,130 @@
+body{
+    background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/NAuOO95cgiknue920/raised-a-lot-of-brightly-lit-hands-at-a-concert-a-large-number-of-people-the-audience-on-the-background-of-the-scene-with-bright-colored-lights-outdoor-rock-concert-outdoor-concert_sczjqdzje_thumbnail-full11.png") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-content: center;
+    overflow: scroll;
+}
+
+.drumkit-container{ 
+    position: absolute;
+    top: 10vh;
+    min-width: 90vw;
+    left: 5vw;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    border: 5px #7070db solid;     overflow: hidden;
+    background: radial-gradient(ellipse at center, #7070db 1%, transparent 100%);
+}
+
+.gold{
+    background: #beb74a;
+}
+
+.drum{
+    background: #fbdb91;
+}
+  
+.kick{
+    border: 5px #7070db solid;     position: fixed;
+    background: gray;
+    border-radius: 0 !important;
+    width: 25%;
+    height: 23%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hithat{
+    border: 5px #7070db solid;     position: fixed;
+    width: 150px;
+    height: 150px;
+    top: 55%;
+    left: 20%;
+    z-index: 2;
+}
+
+.crash{
+    border: 5px #7070db solid;     position: fixed;
+    width: 200px;
+    height: 200px;
+    top: 25%;
+    left: 20%;
+    z-index: 2;
+}
+
+.ride{
+    border: 5px #7070db solid;     position: fixed;
+    width: 220px;
+    height: 220px;
+    top: 22%;
+    right: 18%;
+    z-index: 2;
+}
+
+.o-hat{
+    border: 5px #7070db solid;     position: fixed;
+    width: 220px;
+    height: 220px;
+    top: 55%;
+    right: 15%;
+    z-index: 2;
+}
+
+.tom{
+    border: 5px #7070db solid;     position: fixed;
+    width: 150px;
+    height: 150px;
+    top: 45%;
+    left: 35%;
+    z-index: 1;
+}
+
+.tink{
+    border: 5px #7070db solid;     position: fixed;
+    width: 150px;
+    height: 150px;
+    top: 45%;
+    right: 35%;
+    z-index: 1;
+}
+
+.snare{
+    border: 5px #7070db solid;     background: #ffffff;
+    position: fixed;
+    width: 160px;
+    height: 160px;
+    top: 68%;
+    left: 32%;
+    z-index: 1;
+}
+
+.boom{
+    border: 5px #7070db solid;     background: #ffffff;
+    position: fixed;
+    width: 160px;
+    height: 160px;
+    top: 68%;
+    right: 32%;
+    z-index: 1;
+}
+
+.key{
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+kbd{
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
