@@ -24,10 +24,7 @@ body{
 .gold{
     background: #beb74a;
 }
-
-.drum{
-    background: #fbdb91;
-}
+ 
   
 .kick{
     border: 5px #7070db solid;     position: fixed;
@@ -68,7 +65,8 @@ body{
 }
 
 .o-hat{
-    border: 5px #7070db solid;     position: fixed;
+    border: 5px #7070db solid;     
+    position: fixed;
     width: 220px;
     height: 220px;
     top: 55%;
@@ -77,7 +75,9 @@ body{
 }
 
 .tom{
-    border: 5px #7070db solid;     position: fixed;
+    border: 5px #7070db solid;     
+    position: fixed;
+    background: #ffffff;
     width: 150px;
     height: 150px;
     top: 45%;
@@ -86,7 +86,9 @@ body{
 }
 
 .tink{
-    border: 5px #7070db solid;     position: fixed;
+    border: 5px #7070db solid;     
+    position: fixed;
+    background: #ffffff;
     width: 150px;
     height: 150px;
     top: 45%;
@@ -95,7 +97,8 @@ body{
 }
 
 .snare{
-    border: 5px #7070db solid;     background: #ffffff;
+    border: 5px #7070db solid;     
+    background: #ffffff;
     position: fixed;
     width: 160px;
     height: 160px;
@@ -105,7 +108,8 @@ body{
 }
 
 .boom{
-    border: 5px #7070db solid;     background: #ffffff;
+    border: 5px #7070db solid;     
+    background: #ffffff;
     position: fixed;
     width: 160px;
     height: 160px;
@@ -121,10 +125,17 @@ body{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: all 0.07s;
 }
 
 kbd{
     width: 100%;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.playing{ 
+    transform: rotate(0);
+    border: 5px #be9818 solid;     
+    transition: all 0.07s;
 }
